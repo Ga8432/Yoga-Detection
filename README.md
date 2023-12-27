@@ -6,18 +6,21 @@ This repository contains an algorithm for Yoga Posture Classification using Conv
 
 ## Project Structure
 
-- `data`: Contains the training and testing datasets.
-- `models`: Stores the trained model in H5 format.
-- `src`: Source code for data preprocessing and yoga posture classification.
+- `data and model_file`: both are in google drive "https://drive.google.com/drive/folders/1DcuG_1UQHvd5PD_qxB1puQL6GVOiUtNK?usp=sharing"
+- `yoga_detection.ipynb`: contain whole process for n notebook format
+- `models/test`:contain source code for testing dataa.
+- `model/train`: Source code for data preprocessing and yoga posture classification.
 
 ## Prerequisites
 
 - Python 3.x
 - TensorFlow
 - Keras
-- Other dependencies (specified in `requirements.txt`)
+  
 
 Install the dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install tensorflow
+pip install Keras
+pip install opencv-python
